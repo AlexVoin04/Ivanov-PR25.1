@@ -9,20 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClickStart"
-        android:text="@string/start">
+        android:text="@string/start2">
     </Button>
-    <Button
-        android:id="@+id/btnStop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onClickStop"
-        android:text="@string/stop">
-    </Button>
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:indeterminate="true">
-    </ProgressBar>
 
     <Button
         android:id="@+id/NextAct"
